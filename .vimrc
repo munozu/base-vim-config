@@ -6,10 +6,6 @@ set noswapfile
 
 set mouse=a
 
-" colors
-let base16colorspace=256  " Access colors present in 256 colors     pace
-set termguicolors
-
 " editor
 syntax enable
 set number
@@ -136,10 +132,7 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <Leader>t :ter<cr>
-tnoremap <C-k> <C-w>k
-tnoremap <C-j> <C-w>j
-tnoremap <C-h> <C-w>h
-tnoremap <C-l> <C-w>l
+
 " Searching
 nnoremap / /\v
 vnoremap / /\v
